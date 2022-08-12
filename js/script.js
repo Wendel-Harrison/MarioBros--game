@@ -33,8 +33,8 @@ if (pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
     mario.style.bottom = `${marioPosition}px`;
 
     mario.src = './images/go.png'
-    mario.style.width = '75px'
-    mario.style.marginLeft = '50px'
+    mario.style.width = '4.688rem'
+    mario.style.marginLeft = '3.125rem'
 
     clearInterval(loop);
 

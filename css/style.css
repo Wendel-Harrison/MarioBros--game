@@ -6,10 +6,11 @@
 
 
 
+
 .game-board {
     width: 100%;
-    height: 600px;
-    border-bottom: 15px solid rgb(35, 160, 35);
+    height: 37.5rem;
+    border-bottom: 0.938rem solid rgb(35, 160, 35);
 background: linear-gradient(#87CEEB, #e0f6ff);
 
     margin: 0 auto;
@@ -22,12 +23,12 @@ background: linear-gradient(#87CEEB, #e0f6ff);
 .pipe {
     position: absolute;
     bottom: 0;
-    width: 80px;
+    width: 5rem;
     animation: pipe-animation 1.3s infinite linear;
 }
 
 .mario {
-    width: 150px;
+    width: 9.375rem;
     position: absolute;
     bottom: 0;
 }
@@ -38,8 +39,8 @@ background: linear-gradient(#87CEEB, #e0f6ff);
 
 .clouds {
     position: absolute;
-    width: 550px;
-    bottom: 190px;
+    width: 34.375rem;
+    bottom: 11.875rem;
 
     animation: clouds-animation 30s linear infinite;
 
@@ -49,7 +50,7 @@ background: linear-gradient(#87CEEB, #e0f6ff);
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .btn-restart {
@@ -58,23 +59,23 @@ background: linear-gradient(#87CEEB, #e0f6ff);
     background: linear-gradient(#87CEEB, #e0f6ff);
     color: white;
 
-    padding: 20px 50px;
-    font-size: 35px;
-    border-radius: 60px;
+    padding: 1.25rem 3.125rem;
+    font-size: 2.188rem;
+    border-radius: 3.75rem;
 
     transition: 0.2s ease-in-out;
-    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0.063rem 0.063rem 0.313rem 0px rgba(0, 0, 0, 0.3);
 }
 
 .btn-restart:hover {
     color: black;
-    box-shadow: 1px 1px 5px 0px #87CEEB;
+    box-shadow: 0.063rem 0.063rem 0.313rem 0px #87CEEB;
 
 }
 
 @keyframes pipe-animation {
     from {
-        right: -80px;
+        right: -5rem;
     }
 
     to {
@@ -89,15 +90,15 @@ background: linear-gradient(#87CEEB, #e0f6ff);
     }
 
     40% {
-        bottom: 180px;
+        bottom: 11.25rem;
     }
 
     50% {
-        bottom: 180px;
+        bottom: 11.25rem;
     }
 
     60% {
-        bottom: 180px;
+        bottom: 11.25rem;
     }
 
     100% {
@@ -107,7 +108,7 @@ background: linear-gradient(#87CEEB, #e0f6ff);
 
 @keyframes clouds-animation {
     from {
-        right: -550px;
+        right: -34.375rem;
     }
 
     to {
